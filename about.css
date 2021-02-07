@@ -1,0 +1,36 @@
+  .dataAbout{
+    border: 1px solid rgba(241, 230, 127, 0.356);
+    width: 80%;
+    margin: 15px auto;
+    background-color: rgb(252, 218, 212);
+    border-radius: 0%;
+  }
+
+  .titleAbout h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .dataAbout h2{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(54, 54, 54);
+  }
+
+  .dataEnd{
+    border: 1px solid rgba(241, 230, 127, 0.356);
+    width: 80%;
+    margin: 15px auto;
+    background-color: rgb(252, 253, 183);
+    border-radius: 0%;
+  }
+
+.dataEnd h5{
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(54, 54, 54);
+  }

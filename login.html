@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="login.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<body>
+
+
+    <div class="container">
+        <div class="title">
+            <h2>My Dog</h2>
+        </div>
+        
+        <ul class="nav">
+            <li style="float:right"><a href="#about">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="login">
+
+        <div class="titleLogin">
+            <h2>Dog Login</h2>
+        </div>
+
+         <div class="input">
+            <form action="/action_page.php" >
+                <input type="text" id="name" placeholder="Username" value=""><br><br>
+                <input type="password" id="pass" placeholder="Password" value=""><br><br>
+            </form>
+        </div>
+     
+        <div class="button">
+            <button onclick="check()">Sign in </button>
+        </div>
+    </div>
+
+    <script>
+        function check() {
+            var input1 = document.getElementById("name").value;
+            var input2 = document.getElementById("pass").value;
+            console.log("show =>", input1)
+            console.log("show =>", input2)
+
+            if(input1 == "surawee" && input2 =="5935512033"){
+                window.location = "about.html"
+            }
+            else{
+                alert("User do not found!!!!")
+            }    
+        };        
+    </script>  
+
+</body>
+</html>
